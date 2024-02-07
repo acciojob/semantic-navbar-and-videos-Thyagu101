@@ -1,2 +1,30 @@
-
+nav{
+	background-color: #242925;
+}
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 10px 20px;
+	color: #30dde3;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: #57504f;
+}
+.video-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.video{
+	width: 300px;
+	height: auto;
+	margin-right: 20px;
+}
 /* Your CSS Code here. */
